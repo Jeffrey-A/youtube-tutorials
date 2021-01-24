@@ -3,13 +3,27 @@
     padding: 0;
 }
 
+/* Parte principal */
+
+.contenedor-principal {
+    padding: 92px 40px 132px;
+    background-color: #f0f2f5;
+}
+
+.seccion-principal {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 .logo {
     width: 300px;
     height: 105px;
     margin: -28px;
 }
 
-.descripcion-banner {
+.contenedor-descripcion {
     margin-top: 130px;
 }
 
@@ -20,18 +34,11 @@
     width: 400px;
 }
 
-.principal-wrapper {
-    padding: 92px 40px 132px;
-}
 
-.principal {
-    display: flex;
-    justify-content: center;
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
-.login-form{
+/* Forma */
+
+.forma-login{
     width: 395px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     box-sizing: border-box;
@@ -50,19 +57,16 @@
     border: 1px solid #dddfe2;
 }
 
-.ini-btn {
-    padding: 12px 16px;
+.input {
+    font-size: 17px;
+    color: #1d2129;
 }
 
 .login-btn {
     background-color: #1977f2;
     color: #fff;
     font-size: 20px;
-}
-
-.input {
-    font-size: 17px;
-    color: #1d2129;
+    padding: 12px 16px;
 }
 
 .olvidar-cons {
@@ -79,9 +83,6 @@
     text-decoration: underline;
 }
 
-.principal-wrapper {
-    background-color: #f0f2f5;
-}
 
 .crear-cuenta {
     background-color: #42b72b;
@@ -91,26 +92,49 @@
     margin-bottom: 0;
 }
 
-.crear-cuenta-wrapper {
+.contenedor-crear-cuenta {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 25px;
 }
 
-.crear-link-wrapper {
+.contenedor-crear-pagina {
     margin-top: 28px;
     color: #000;
     text-align: center;
 }
 
-.crear-link {
+.enlace-crear-pagina {
     color: #000;
     font-weight: 600;
     text-decoration: none;
 }
 
-.lista-idiomas-principales {
+.enlace-crear-pagina:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Pie de pagína*/
+
+.pie-de-pagina {
+    color: #737373;
+    margin: 28px 40px 10px;
+}
+
+.enlaces-pie-de-pagina {
+    text-decoration: none;
+    color: #737373;
+
+}
+
+.enlaces-pie-de-pagina:hover {
+    text-decoration: underline;
+}
+
+.lista-idiomas {
     border-bottom: 1px solid #dddfe2;
     list-style-type: none;
     display: flex;
@@ -118,26 +142,8 @@
     font-size: 15px;
 }
 
-.otros-links {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0px;
-}
-
 .idiomas-pr {
     margin-right: 10px;
-}
-
-.otros-li {
-    margin-right: 20px;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.pie-de-pagina {
-    color: #737373;
-    margin: 28px 40px 10px;
 }
 
 .mas-btn {
@@ -150,17 +156,20 @@
     box-sizing: content-box;
 }
 
+.lista-otros-enlaces {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.otros-li {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 .copyright {
     font-size: 12px;
     margin: 20px 0px 15px;
-}
-
-.footer-links {
-    text-decoration: none;
-    color: #737373;
-
-}
-
-.footer-links:hover {
-    text-decoration: underline;
 }
