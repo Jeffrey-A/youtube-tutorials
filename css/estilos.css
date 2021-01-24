@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 300px;
+    height: 105px;
+    margin: -28px;
+}
+
+.descripcion-banner {
+    margin-top: 130px;
+}
+
+.descripcion {
+    font-size: 24px;
+    margin-top: 15px;
+    line-height: 28px;
+    width: 400px;
+}
+
+.principal-wrapper {
+    padding: 92px 40px 132px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.login-form{
+    width: 395px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px 15px 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.forma-elemento {
+    margin-bottom: 15px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+.ini-btn {
+    padding: 12px 16px;
+}
+
+.login-btn {
+    background-color: #1977f2;
+    color: #fff;
+    font-size: 20px;
+}
+
+.input {
+    font-size: 17px;
+    color: #1d2129;
+}
+
+.olvidar-cons {
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddfe2;
+    text-decoration: none;
+    text-align: center;
+}
+
+.olvidar-cons:hover {
+    text-decoration: underline;
+}
+
+.principal-wrapper {
+    background-color: #f0f2f5;
+}
+
+.crear-cuenta {
+    background-color: #42b72b;
+    color: #fff;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.crear-cuenta-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.crear-link-wrapper {
+    margin-top: 28px;
+    color: #000;
+    text-align: center;
+}
+
+.crear-link {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.lista-idiomas-principales {
+    border-bottom: 1px solid #dddfe2;
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+.otros-links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.idiomas-pr {
+    margin-right: 10px;
+}
+
+.otros-li {
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.pie-de-pagina {
+    color: #737373;
+    margin: 28px 40px 10px;
+}
+
+.mas-btn {
+    padding: 0px 8px;
+    background-color: #f5f6f7;
+    height: 18px;
+    border: 1px solid #ccd0d5;
+    border-radius: 2px;
+    font-size: 15px;
+    box-sizing: content-box;
+}
+
+.copyright {
+    font-size: 12px;
+    margin: 20px 0px 15px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #737373;
+
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+}
